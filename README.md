@@ -4,10 +4,6 @@
 ## Overview
 This project is designed as a tool for **communication between visually impaired individuals and speech impaired individuals**, converting **American Sign Language (ASL), British Sign Language (BSL), Spanish Sign Language (SSL), and Indian Sign Language (ISL)** gestures into spoken language and text. It employs computer vision and machine learning techniques, leveraging MediaPipe for accurate hand landmark detection, OpenCV for efficient image processing, OS for seamless file handling, Pickle for data serialization, scikit-learn for robust machine learning models, and NumPy for essential numerical computations. By translating gestures into both audible speech and displayed text, this tool aims to facilitate better communication accessibility for diverse user needs.
 
-## Project Demo
-To see **Project Demo** click on the [LINK](https://drive.google.com/file/d/1vmKktTK33awVxZ9uqvdIsxFbs6TPoVVW/view)
-
-
 ## Features
 - **Hand Gesture Recognition:** Utilizes MediaPipe and OpenCV to detect and track hand landmarks, identifying gestures in real-time.
 - **Multi-language Support:** Recognizes gestures from American Sign Language (ASL), British Sign Language (BSL), Spanish Sign Language (SSL), and Indian Sign Language (ISL) converting them into words and speaking them.
@@ -15,7 +11,6 @@ To see **Project Demo** click on the [LINK](https://drive.google.com/file/d/1vmK
 - **Text Display:** Displays recognized gestures as text on the interface for visual feedback.
 
 ## Libraries Used
-
 - **MediaPipe**: Provides tools and machine learning models for real-time hand landmark detection and tracking.
 - **OpenCV**: Used for image and video processing tasks, including capturing video streams from webcams and processing frames for hand gesture recognition.
 - **OS**: Provides functionality for interacting with the operating system, used here for managing directories and files containing training data and models.
@@ -25,7 +20,6 @@ To see **Project Demo** click on the [LINK](https://drive.google.com/file/d/1vmK
 - **pyttsx3**: For providing text-to-speech functionality.
 
 ## Datasets Used
-
 - **American Sign Language (ASL)**: Utilized the [ASL Alphabet Dataset on Kaggle](https://www.kaggle.com/datasets/grassknoted/asl-alphabet?select=asl_alphabet_train) containing images of hand gestures representing letters in ASL.
   
 - **Indian Sign Language (ISL)**: Employed the [Indian Sign Language Dataset on Kaggle](https://www.kaggle.com/datasets/vaishnaviasonawane/indian-sign-language-dataset) comprising images of hand gestures used in ISL.
